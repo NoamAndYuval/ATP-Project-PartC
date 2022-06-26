@@ -1,5 +1,7 @@
 package View;
 
+import Model.MyModel;
+import ViewModel.MyViewModel;
 import algorithms.mazeGenerators.Maze;
 import algorithms.mazeGenerators.MyMazeGenerator;
 import javafx.application.Application;
@@ -12,13 +14,18 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("MazeWindow.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 500, 500));
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Launcher.fxml"));
+        Parent root = fxmlLoader.load();
+        Scene scene=new Scene(root, 600, 350);
+        String css = this.getClass().getResource("MainStyle.css").toExternalForm();
+        scene.getStylesheets().add(css);
+        primaryStage.setTitle("Launcher");
+        primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
+        LauncherController launcherController = fxmlLoader.getController();
+        launcherController.setCerStage(primaryStage);
         primaryStage.show();
-        MyMazeGenerator mazeGenerator = new MyMazeGenerator();
-        Maze maze = mazeGenerator.generate(50,50);
-        maze.print();
 
 
 

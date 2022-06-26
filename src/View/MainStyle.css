@@ -1,12 +1,14 @@
 .root {
-    -fx-background-color: bisque;
+    -fx-background-image: url("resources/images/backgroundMaze.jpeg");
+    -fx-background-size: 100% 100%;
 }
+
 
 Button {
     -fx-text-fill: white;
     -fx-font-family: "Arial Narrow";
     -fx-font-weight: bold;
-    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-background-color: linear-gradient(#b300fa, #362a58);
     -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
 }
 
@@ -18,4 +20,21 @@ Button:hover {
     -fx-text-fill: -fx-text-base-color;
     -fx-alignment: CENTER;
     -fx-content-display: LEFT;
+}
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgb(224, 249, 0), 0,0,0,1 );
+}
+#WelcomeLBL ,#WinLBL,#MazePropLBL,#HelpLBL,#ScoreNum,#ScoreNum1{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgb(200, 248, 0), 6, 0.0 , 0 , 2 );
+}
+
+.slider .track{
+    -progress : 0.2;
+    -fx-background-color: linear-gradient(to right, #2D819D , #969696);
 }
