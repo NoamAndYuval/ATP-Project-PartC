@@ -91,6 +91,7 @@ public class LauncherController implements Initializable {
             CerStage.setResizable(true);
             CerStage.show();
         } catch (Exception e) {
+            System.out.println(e);
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setContentText(e.getMessage());
             alert.show();

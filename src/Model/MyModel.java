@@ -29,14 +29,12 @@ public class MyModel extends Observable implements IModel {
     Solution solution;
 
     public MyModel() {
-
-
     }
 
     public void startServers() {
         if (mazeGeneratingServer == null) {
-            mazeGeneratingServer = new Server(5400, 1000, new
-                    ServerStrategyGenerateMaze());
+            ServerStrategyGenerateMaze serverStrategyGenerateMaze=new ServerStrategyGenerateMaze();
+            mazeGeneratingServer = new Server(5400, 1000, serverStrategyGenerateMaze);
             mazeGeneratingServer.start();
 
         }

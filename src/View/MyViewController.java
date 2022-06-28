@@ -237,7 +237,8 @@ public class MyViewController implements Initializable, Observer {
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("Maze files (*.maze)", "*.maze"));
         fc.setInitialDirectory(new File("./resources"));
         File chosen = fc.showOpenDialog(null);
-        myViewModel.load(chosen.getPath());
+        if (chosen!=null)
+            myViewModel.load(chosen.getPath());
         //...
     }
 
@@ -246,8 +247,10 @@ public class MyViewController implements Initializable, Observer {
         fc.setTitle("Save Maze");
         fc.setInitialDirectory(new File("./resources"));
         File chosen = fc.showSaveDialog(null);
-        String path = chosen.getPath();
-        myViewModel.save(path);
+        if (chosen!=null){
+            String path = chosen.getPath();
+            myViewModel.save(path);
+        }
 
     }
 
