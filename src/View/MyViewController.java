@@ -1,39 +1,30 @@
 package View;
 
-import Model.MyModel;
 import ViewModel.MyViewModel;
-import algorithms.mazeGenerators.Maze;
-import algorithms.search.Solution;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-import javafx.stage.Window;
 
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Observable;
 import java.util.Observer;
@@ -61,12 +52,15 @@ public class MyViewController implements Initializable, Observer {
     public GridPane myGridPane;
     public Label PointsTaken;
     public boolean Solved = false;
+    public Menu file;
+    public Menu Edit;
     StringProperty updatePlayerRow = new SimpleStringProperty();
     StringProperty updatePlayerCol = new SimpleStringProperty();
     StringProperty updatePlayerScore = new SimpleStringProperty();
 
     public void setCerStage(Stage cerStage) {
         try {
+
             CerStage = cerStage;
             mazeDisplayer.heightProperty().bind(myPane.heightProperty());
             mazeDisplayer.widthProperty().bind(myPane.widthProperty());
@@ -87,10 +81,13 @@ public class MyViewController implements Initializable, Observer {
                 }
                 myViewModel.StopServers();
             });
+
             addMouseScrolling(mazeDisplayer);
-            File file = new File("./resources/Cuteboy.mp3");
-            Media media = new Media(file.toURI().toString());
-            mediaPlayer = new MediaPlayer(media);
+
+
+
+
+            mediaPlayer = new MediaPlayer(new Media(MyViewController.class.getResource("/images/Cuteboy.mp3").toURI().toString()));
             mediaPlayer.play();
             slider.valueProperty().addListener(new ChangeListener<Number>() {
                 @Override
@@ -126,13 +123,14 @@ public class MyViewController implements Initializable, Observer {
 
 
     public MyViewController() {
-
         myViewModel = new MyViewModel();
         myViewModel.addObserver(this);
         try {
             myViewModel.StartServers();
+
         } catch (Exception e) {
         }
+
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Prop.fxml"));
@@ -235,7 +233,7 @@ public class MyViewController implements Initializable, Observer {
         FileChooser fc = new FileChooser();
         fc.setTitle("Open maze");
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("Maze files (*.maze)", "*.maze"));
-        fc.setInitialDirectory(new File("./resources"));
+//        fc.setInitialDirectory(new File("./resources"));
         File chosen = fc.showOpenDialog(null);
         if (chosen!=null)
             myViewModel.load(chosen.getPath());
@@ -245,7 +243,7 @@ public class MyViewController implements Initializable, Observer {
     public void SaveMaze(ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
         fc.setTitle("Save Maze");
-        fc.setInitialDirectory(new File("./resources"));
+//        fc.setInitialDirectory(new File("./resources"));
         File chosen = fc.showSaveDialog(null);
         if (chosen!=null){
             String path = chosen.getPath();
@@ -318,8 +316,8 @@ public class MyViewController implements Initializable, Observer {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Win.fxml"));
             root = fxmlLoader.load();
             Stage stage = (Stage) textField_mazeRows.getScene().getWindow();
-            Scene scene = new Scene(root, 600, 600);
-            String css = this.getClass().getResource("MainStyle.css").toExternalForm();
+            Scene scene = new Scene(root, 600, 450);
+            String css = this.getClass().getResource("Winner.css").toExternalForm();
             scene.getStylesheets().add(css);
             stage.setScene(scene);
             stage.setTitle("Win");

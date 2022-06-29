@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HelpController">
    <children>
-      <Label fx:id="HelpLBL" alignment="CENTER" prefHeight="88.0" prefWidth="618.0" text="Help">
+      <Label fx:id="HelpLBL" alignment="CENTER" contentDisplay="CENTER" prefHeight="88.0" prefWidth="618.0" text="Help">
          <font>
             <Font size="67.0" />
          </font>
       </Label>
-      <Label alignment="TOP_LEFT" layoutY="142.0" prefHeight="257.0" prefWidth="618.0" text="In this game you need to solve a maze , you can move by keyboard or by mouse .   " />
-      <ImageView fx:id="myImageView" fitHeight="142.0" fitWidth="200.0" layoutX="336.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../resources/Lbackground.jpeg" />
-         </image>
-      </ImageView>
+      <Label fx:id="HelpTXT" alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="93.0" prefHeight="306.0" prefWidth="618.0" text="The goal of the game is to help Pacman reach his lover at the end of &#10;the maze while taking a low number of points.&#10;&#10;You can play with keyboard up, down, right, left  or with numpad.&#10;&#10;You can request a solution by clicking the Maze Solution button.&#10;&#10; At the end of the maze you will recived your Score .&#10;&#10;" />
+      <Label fx:id="HelpTXTEnd" alignment="CENTER" layoutX="-2.0" layoutY="306.0" prefHeight="88.0" prefWidth="618.0" text="Good luck helping Pacman">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
    </children>
 </AnchorPane>

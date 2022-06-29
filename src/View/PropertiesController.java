@@ -9,11 +9,9 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URL;
+import java.nio.file.Paths;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
@@ -40,11 +38,9 @@ public class PropertiesController implements Initializable {
         MyMazeGenerator.setToggleGroup(Gen);
         SimpleMazeGenerator.setToggleGroup(Gen);
         EmptyMazeGenerator.setToggleGroup(Gen);
-//        Stage myStage = (Stage) BestFirstSearch.getScene().getWindow();
-//        myStage.setOnHiding( event -> {System.out.println("Closing Stage");} );
 
         try {
-            InputStream input = new FileInputStream("resources/config.properties");
+            InputStream input =  getClass().getResourceAsStream("/config.properties");
             Properties prop = new Properties();
             prop.load(input);
             String mazeGen = prop.getProperty("mazeGeneratingAlgorithm");
@@ -80,7 +76,11 @@ public class PropertiesController implements Initializable {
     }
 
     public void ApplyFunc(ActionEvent actionEvent) {
-        try(OutputStream out = new FileOutputStream("resources/config.properties")) {
+        try{
+
+
+
+            FileOutputStream out = new FileOutputStream(Paths.get(ClassLoader.getSystemResource("config.properties").toURI()).toString());
             Properties prop = new Properties();
 
             if(MyMazeGenerator.isSelected()){
@@ -103,6 +103,7 @@ public class PropertiesController implements Initializable {
             }
             prop.setProperty("threadPoolSize","5");
             prop.store(out,null);
+            out.close();
 
             ((Stage)BestFirstSearch.getScene().getWindow()).close();
 

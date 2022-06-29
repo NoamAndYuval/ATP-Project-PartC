@@ -21,20 +21,48 @@ Button:hover {
     -fx-alignment: CENTER;
     -fx-content-display: LEFT;
 }
+
 .label {
-    -fx-font-size: 14px;
+    -fx-font-size: 17px;
     -fx-font-weight: bold;
-    -fx-text-fill: #333333;
     -fx-effect: dropshadow( gaussian , rgb(224, 249, 0), 0,0,0,1 );
 }
-#WelcomeLBL ,#WinLBL,#MazePropLBL,#HelpLBL,#ScoreNum,#ScoreNum1{
+#About,#AboutUs,#file,#Save,#Edit,#Delete,#Properties{
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+
+}
+
+#WelcomeLBL ,#WinLBL,#MazePropLBL,#HelpLBL,#ScoreNum, #HelpTXTEnd{
     -fx-font-size: 32px;
     -fx-font-family: "Arial Black";
     -fx-fill: #818181;
-    -fx-effect: innershadow( three-pass-box , rgb(200, 248, 0), 6, 0.0 , 0 , 2 );
+    -fx-text-fill: #333333;
+    -fx-effect: innershadow( three-pass-box , rgb(194, 248, 0), 6, 0.0 , 0 , 2 );
 }
 
 .slider .track{
     -progress : 0.2;
     -fx-background-color: linear-gradient(to right, #2D819D , #969696);
+}
+
+#HelpTXT {
+    -fx-font-size: 15px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgb(0, 248, 227), 6, 0.0 , 0 , 2 );
+}
+#HelpTXTEnd {
+    -fx-font-size: 25px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgb(248, 0, 58), 6, 0.0 , 0 , 2 );
+}
+
+#ScoreIsLBL{
+    -fx-font-size: 28px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgb(194, 248, 0), 6, 0.0 , 0 , 2 );
 }

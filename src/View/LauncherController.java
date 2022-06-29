@@ -41,6 +41,7 @@ public class LauncherController implements Initializable {
     public Stage CerStage;
     public Label WelcomeLBL;
     public MenuItem AboutUs;
+    public Menu About;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -61,7 +62,7 @@ public class LauncherController implements Initializable {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Help.fxml"));
             Parent root = fxmlLoader.load();
-            Scene scene = new Scene(root, 600, 400);
+            Scene scene = new Scene(root, 650, 400);
             String css = this.getClass().getResource("MainStyle.css").toExternalForm();
             scene.getStylesheets().add(css);
             HelpStage = new Stage();

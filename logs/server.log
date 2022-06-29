@@ -51,3 +51,597 @@
 2022.06.28 17:34:58.481 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
 2022.06.28 17:35:00.108 INFO  Server.Server - Server Stopped
 2022.06.28 17:35:00.109 INFO  Server.Server - Server Stopped
+2022.06.28 17:38:32.246 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 17:38:32.246 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 17:38:33.976 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51424,localport=5400] Arrived
+2022.06.28 17:38:33.979 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51424,localport=5400] is running
+2022.06.28 17:38:33.996 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 17:39:08.388 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51427,localport=5401] Arrived
+2022.06.28 17:39:08.390 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51427,localport=5401] is running
+2022.06.28 17:39:08.493 INFO  Server.Server - Maze Solved 
+2022.06.28 17:39:11.912 INFO  Server.Server - Server Stopped
+2022.06.28 17:39:11.912 INFO  Server.Server - Server Stopped
+2022.06.28 19:16:07.254 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:16:07.254 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:16:16.626 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51927,localport=5400] Arrived
+2022.06.28 19:16:16.630 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51927,localport=5400] is running
+2022.06.28 19:16:16.647 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:16:34.517 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51928,localport=5401] Arrived
+2022.06.28 19:16:34.519 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51928,localport=5401] is running
+2022.06.28 19:16:35.042 INFO  Server.Server - Maze Solved 
+2022.06.28 19:16:42.199 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51931,localport=5400] Arrived
+2022.06.28 19:16:42.200 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51931,localport=5400] is running
+2022.06.28 19:16:42.205 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:16:55.622 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51932,localport=5401] Arrived
+2022.06.28 19:16:55.624 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51932,localport=5401] is running
+2022.06.28 19:16:55.692 INFO  Server.Server - Maze Solved 
+2022.06.28 19:17:07.460 INFO  Server.Server - Server Stopped
+2022.06.28 19:17:07.461 INFO  Server.Server - Server Stopped
+2022.06.28 19:17:54.004 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:17:54.004 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:18:06.300 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51936,localport=5400] Arrived
+2022.06.28 19:18:06.303 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51936,localport=5400] is running
+2022.06.28 19:18:06.317 INFO  Server.Server - Maze with 10 rows ,10 cols generated 
+2022.06.28 19:18:11.424 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51937,localport=5401] Arrived
+2022.06.28 19:18:11.426 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51937,localport=5401] is running
+2022.06.28 19:18:11.517 INFO  Server.Server - Maze Solved 
+2022.06.28 19:18:19.111 INFO  Server.Server - Server Stopped
+2022.06.28 19:18:19.112 INFO  Server.Server - Server Stopped
+2022.06.28 19:20:49.561 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:20:49.561 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:21:06.494 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:21:06.494 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:21:08.175 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51952,localport=5400] Arrived
+2022.06.28 19:21:08.178 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51952,localport=5400] is running
+2022.06.28 19:21:08.194 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:21:15.002 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51953,localport=5401] Arrived
+2022.06.28 19:21:15.004 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51953,localport=5401] is running
+2022.06.28 19:21:15.119 INFO  Server.Server - Maze Solved 
+2022.06.28 19:21:23.643 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51954,localport=5401] Arrived
+2022.06.28 19:21:23.645 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51954,localport=5401] is running
+2022.06.28 19:21:23.692 INFO  Server.Server - Maze Solved 
+2022.06.28 19:21:38.836 INFO  Server.Server - Server Stopped
+2022.06.28 19:21:38.837 INFO  Server.Server - Server Stopped
+2022.06.28 19:22:49.604 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:22:49.604 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:22:57.253 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51960,localport=5400] Arrived
+2022.06.28 19:22:57.256 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51960,localport=5400] is running
+2022.06.28 19:22:57.270 INFO  Server.Server - Maze with 2 rows ,2 cols generated 
+2022.06.28 19:22:59.107 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51961,localport=5401] Arrived
+2022.06.28 19:22:59.109 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51961,localport=5401] is running
+2022.06.28 19:22:59.199 INFO  Server.Server - Maze Solved 
+2022.06.28 19:23:05.364 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51962,localport=5401] Arrived
+2022.06.28 19:23:05.366 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51962,localport=5401] is running
+2022.06.28 19:23:05.410 INFO  Server.Server - Maze Solved 
+2022.06.28 19:23:12.147 INFO  Server.Server - Server Stopped
+2022.06.28 19:23:12.149 INFO  Server.Server - Server Stopped
+2022.06.28 19:27:03.614 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:27:03.614 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:27:05.398 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51972,localport=5400] Arrived
+2022.06.28 19:27:05.400 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51972,localport=5400] is running
+2022.06.28 19:27:05.414 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:27:25.345 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51974,localport=5401] Arrived
+2022.06.28 19:27:25.347 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51974,localport=5401] is running
+2022.06.28 19:27:25.464 INFO  Server.Server - Maze Solved 
+2022.06.28 19:27:36.107 INFO  Server.Server - Server Stopped
+2022.06.28 19:27:36.108 INFO  Server.Server - Server Stopped
+2022.06.28 19:28:01.463 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:28:01.463 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:28:04.035 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51978,localport=5400] Arrived
+2022.06.28 19:28:04.038 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51978,localport=5400] is running
+2022.06.28 19:28:04.053 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:28:05.028 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51979,localport=5401] Arrived
+2022.06.28 19:28:05.030 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51979,localport=5401] is running
+2022.06.28 19:28:05.146 INFO  Server.Server - Maze Solved 
+2022.06.28 19:28:14.503 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51980,localport=5401] Arrived
+2022.06.28 19:28:14.506 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=51980,localport=5401] is running
+2022.06.28 19:28:14.544 INFO  Server.Server - Maze Solved 
+2022.06.28 19:28:22.031 INFO  Server.Server - Server Stopped
+2022.06.28 19:28:22.032 INFO  Server.Server - Server Stopped
+2022.06.28 19:30:04.417 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:30:04.417 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:30:11.367 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51995,localport=5400] Arrived
+2022.06.28 19:30:11.370 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51995,localport=5400] is running
+2022.06.28 19:30:11.384 INFO  Server.Server - Maze with 4 rows ,4 cols generated 
+2022.06.28 19:30:13.294 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51996,localport=5401] Arrived
+2022.06.28 19:30:13.296 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=51996,localport=5401] is running
+2022.06.28 19:30:13.740 INFO  Server.Server - Maze Solved 
+2022.06.28 19:30:24.536 INFO  Server.Server - Server Stopped
+2022.06.28 19:30:24.537 INFO  Server.Server - Server Stopped
+2022.06.28 19:31:49.206 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:31:49.206 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:31:53.452 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52003,localport=5400] Arrived
+2022.06.28 19:31:53.455 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52003,localport=5400] is running
+2022.06.28 19:31:53.470 INFO  Server.Server - Maze with 4 rows ,4 cols generated 
+2022.06.28 19:31:58.117 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52004,localport=5401] Arrived
+2022.06.28 19:31:58.119 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52004,localport=5401] is running
+2022.06.28 19:31:58.211 INFO  Server.Server - Maze Solved 
+2022.06.28 19:32:17.832 INFO  Server.Server - Server Stopped
+2022.06.28 19:32:17.832 INFO  Server.Server - Server Stopped
+2022.06.28 19:32:59.530 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:32:59.530 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:33:00.968 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52011,localport=5400] Arrived
+2022.06.28 19:33:00.971 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52011,localport=5400] is running
+2022.06.28 19:33:00.988 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 19:33:01.880 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52012,localport=5401] Arrived
+2022.06.28 19:33:01.881 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52012,localport=5401] is running
+2022.06.28 19:33:01.976 INFO  Server.Server - Maze Solved 
+2022.06.28 19:33:15.735 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52013,localport=5401] Arrived
+2022.06.28 19:33:15.737 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52013,localport=5401] is running
+2022.06.28 19:33:15.803 INFO  Server.Server - Maze Solved 
+2022.06.28 19:49:15.257 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 19:49:15.257 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 19:49:21.972 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52035,localport=5400] Arrived
+2022.06.28 19:49:21.975 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52035,localport=5400] is running
+2022.06.28 19:49:22.007 INFO  Server.Server - Maze with 100 rows ,100 cols generated 
+2022.06.28 19:52:06.098 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52044,localport=5401] Arrived
+2022.06.28 19:52:06.099 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52044,localport=5401] is running
+2022.06.28 19:52:06.328 INFO  Server.Server - Maze Solved 
+2022.06.28 19:53:16.999 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52045,localport=5401] Arrived
+2022.06.28 19:53:17.000 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52045,localport=5401] is running
+2022.06.28 19:53:17.117 INFO  Server.Server - Maze Solved 
+2022.06.28 19:53:25.451 INFO  Server.Server - Server Stopped
+2022.06.28 19:53:25.452 INFO  Server.Server - Server Stopped
+2022.06.28 20:01:02.993 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:01:02.993 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:01:06.188 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52072,localport=5400] Arrived
+2022.06.28 20:01:06.191 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52072,localport=5400] is running
+2022.06.28 20:01:06.206 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:01:13.352 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52073,localport=5401] Arrived
+2022.06.28 20:01:13.353 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52073,localport=5401] is running
+2022.06.28 20:01:13.825 INFO  Server.Server - Maze Solved 
+2022.06.28 20:01:20.416 INFO  Server.Server - Server Stopped
+2022.06.28 20:01:20.418 INFO  Server.Server - Server Stopped
+2022.06.28 20:01:46.404 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:01:46.404 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:01:47.810 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52077,localport=5400] Arrived
+2022.06.28 20:01:47.811 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52077,localport=5400] is running
+2022.06.28 20:01:47.824 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:01:58.494 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52078,localport=5401] Arrived
+2022.06.28 20:01:58.495 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52078,localport=5401] is running
+2022.06.28 20:01:58.966 INFO  Server.Server - Maze Solved 
+2022.06.28 20:02:15.921 INFO  Server.Server - Server Stopped
+2022.06.28 20:02:15.922 INFO  Server.Server - Server Stopped
+2022.06.28 20:04:10.503 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:04:10.503 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:04:12.547 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52085,localport=5400] Arrived
+2022.06.28 20:04:12.548 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52085,localport=5400] is running
+2022.06.28 20:04:12.559 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:04:34.466 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52088,localport=5401] Arrived
+2022.06.28 20:04:34.468 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52088,localport=5401] is running
+2022.06.28 20:04:34.966 INFO  Server.Server - Maze Solved 
+2022.06.28 20:05:15.732 INFO  Server.Server - Server Stopped
+2022.06.28 20:05:15.733 INFO  Server.Server - Server Stopped
+2022.06.28 20:06:36.107 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:06:36.107 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:06:37.830 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52098,localport=5400] Arrived
+2022.06.28 20:06:37.831 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52098,localport=5400] is running
+2022.06.28 20:06:37.841 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:06:43.222 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52099,localport=5401] Arrived
+2022.06.28 20:06:43.224 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52099,localport=5401] is running
+2022.06.28 20:06:43.711 INFO  Server.Server - Maze Solved 
+2022.06.28 20:07:37.601 INFO  Server.Server - Server Stopped
+2022.06.28 20:07:37.602 INFO  Server.Server - Server Stopped
+2022.06.28 20:08:33.994 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:08:33.994 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:08:41.671 INFO  Server.Server - Server Stopped
+2022.06.28 20:08:41.672 INFO  Server.Server - Server Stopped
+2022.06.28 20:11:18.270 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:11:18.270 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:11:25.451 INFO  Server.Server - Server Stopped
+2022.06.28 20:11:25.452 INFO  Server.Server - Server Stopped
+2022.06.28 20:13:42.387 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:13:42.387 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:13:52.171 INFO  Server.Server - Server Stopped
+2022.06.28 20:13:52.172 INFO  Server.Server - Server Stopped
+2022.06.28 20:14:37.916 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:14:37.916 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:14:51.153 INFO  Server.Server - Server Stopped
+2022.06.28 20:14:51.154 INFO  Server.Server - Server Stopped
+2022.06.28 20:15:37.809 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:15:37.809 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:15:45.658 INFO  Server.Server - Server Stopped
+2022.06.28 20:15:45.659 INFO  Server.Server - Server Stopped
+2022.06.28 20:17:45.238 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:17:45.238 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:18:00.233 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52145,localport=5400] Arrived
+2022.06.28 20:18:00.236 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=52145,localport=5400] is running
+2022.06.28 20:18:00.252 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:18:04.494 INFO  Server.Server - Server Stopped
+2022.06.28 20:18:04.496 INFO  Server.Server - Server Stopped
+2022.06.28 20:23:00.202 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:23:00.202 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:23:03.947 INFO  Server.Server - Server Stopped
+2022.06.28 20:23:03.948 INFO  Server.Server - Server Stopped
+2022.06.28 20:23:36.297 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:23:36.297 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:23:39.291 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52170,localport=5400] Arrived
+2022.06.28 20:23:39.294 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52170,localport=5400] is running
+2022.06.28 20:23:39.310 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:23:44.605 INFO  Server.Server - Server Stopped
+2022.06.28 20:23:44.606 INFO  Server.Server - Server Stopped
+2022.06.28 20:27:17.658 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:27:17.658 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:27:19.756 INFO  Server.Server - Server Stopped
+2022.06.28 20:27:19.757 INFO  Server.Server - Server Stopped
+2022.06.28 20:27:44.035 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:27:44.035 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:27:47.686 INFO  Server.Server - Server Stopped
+2022.06.28 20:27:47.687 INFO  Server.Server - Server Stopped
+2022.06.28 20:28:18.399 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:28:18.399 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:28:33.776 INFO  Server.Server - Server Stopped
+2022.06.28 20:28:33.777 INFO  Server.Server - Server Stopped
+2022.06.28 20:28:54.352 INFO  Server.Server - Server Start In Port 5400
+2022.06.28 20:28:54.352 INFO  Server.Server - Server Start In Port 5401
+2022.06.28 20:28:58.654 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52205,localport=5400] Arrived
+2022.06.28 20:28:58.657 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52205,localport=5400] is running
+2022.06.28 20:28:58.673 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.28 20:29:13.295 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52207,localport=5401] Arrived
+2022.06.28 20:29:13.296 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52207,localport=5401] is running
+2022.06.28 20:29:13.387 INFO  Server.Server - Maze Solved 
+2022.06.28 20:29:29.583 INFO  Server.Server - Server Stopped
+2022.06.28 20:29:29.584 INFO  Server.Server - Server Stopped
+2022.06.29 14:45:47.458 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 14:45:47.458 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 14:45:48.808 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52868,localport=5400] Arrived
+2022.06.29 14:45:48.810 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52868,localport=5400] is running
+2022.06.29 14:45:48.827 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:04.930 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52869,localport=5401] Arrived
+2022.06.29 14:46:04.933 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52869,localport=5401] is running
+2022.06.29 14:46:05.417 INFO  Server.Server - Maze Solved 
+2022.06.29 14:46:18.020 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52871,localport=5400] Arrived
+2022.06.29 14:46:18.023 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52871,localport=5400] is running
+2022.06.29 14:46:18.027 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:21.267 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52872,localport=5400] Arrived
+2022.06.29 14:46:21.270 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52872,localport=5400] is running
+2022.06.29 14:46:21.274 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:21.516 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52873,localport=5400] Arrived
+2022.06.29 14:46:21.518 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52873,localport=5400] is running
+2022.06.29 14:46:21.521 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:21.699 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52874,localport=5400] Arrived
+2022.06.29 14:46:21.700 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52874,localport=5400] is running
+2022.06.29 14:46:21.704 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:21.848 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52875,localport=5400] Arrived
+2022.06.29 14:46:21.849 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52875,localport=5400] is running
+2022.06.29 14:46:21.853 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:21.999 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52876,localport=5400] Arrived
+2022.06.29 14:46:22.000 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52876,localport=5400] is running
+2022.06.29 14:46:22.004 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.148 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52877,localport=5400] Arrived
+2022.06.29 14:46:22.149 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52877,localport=5400] is running
+2022.06.29 14:46:22.153 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.298 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52878,localport=5400] Arrived
+2022.06.29 14:46:22.300 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52878,localport=5400] is running
+2022.06.29 14:46:22.303 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.448 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52879,localport=5400] Arrived
+2022.06.29 14:46:22.449 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52879,localport=5400] is running
+2022.06.29 14:46:22.452 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.615 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52880,localport=5400] Arrived
+2022.06.29 14:46:22.616 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52880,localport=5400] is running
+2022.06.29 14:46:22.619 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.764 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52881,localport=5400] Arrived
+2022.06.29 14:46:22.765 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52881,localport=5400] is running
+2022.06.29 14:46:22.769 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:22.914 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52882,localport=5400] Arrived
+2022.06.29 14:46:22.915 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52882,localport=5400] is running
+2022.06.29 14:46:22.918 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.101 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52883,localport=5400] Arrived
+2022.06.29 14:46:23.102 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52883,localport=5400] is running
+2022.06.29 14:46:23.107 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.248 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52884,localport=5400] Arrived
+2022.06.29 14:46:23.249 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52884,localport=5400] is running
+2022.06.29 14:46:23.252 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.415 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52885,localport=5400] Arrived
+2022.06.29 14:46:23.416 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52885,localport=5400] is running
+2022.06.29 14:46:23.420 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.555 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52886,localport=5400] Arrived
+2022.06.29 14:46:23.556 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52886,localport=5400] is running
+2022.06.29 14:46:23.560 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.714 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52887,localport=5400] Arrived
+2022.06.29 14:46:23.715 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52887,localport=5400] is running
+2022.06.29 14:46:23.719 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:23.864 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52888,localport=5400] Arrived
+2022.06.29 14:46:23.865 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52888,localport=5400] is running
+2022.06.29 14:46:23.869 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:24.014 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52889,localport=5400] Arrived
+2022.06.29 14:46:24.015 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52889,localport=5400] is running
+2022.06.29 14:46:24.018 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:24.204 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52890,localport=5400] Arrived
+2022.06.29 14:46:24.205 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52890,localport=5400] is running
+2022.06.29 14:46:24.208 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:24.736 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52891,localport=5401] Arrived
+2022.06.29 14:46:24.737 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52891,localport=5401] is running
+2022.06.29 14:46:25.123 INFO  Server.Server - Maze Solved 
+2022.06.29 14:46:27.082 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52892,localport=5400] Arrived
+2022.06.29 14:46:27.083 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52892,localport=5400] is running
+2022.06.29 14:46:27.086 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:28.541 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52893,localport=5401] Arrived
+2022.06.29 14:46:28.543 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52893,localport=5401] is running
+2022.06.29 14:46:28.609 INFO  Server.Server - Maze Solved 
+2022.06.29 14:46:30.564 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52894,localport=5400] Arrived
+2022.06.29 14:46:30.565 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52894,localport=5400] is running
+2022.06.29 14:46:30.568 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:31.341 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52895,localport=5401] Arrived
+2022.06.29 14:46:31.343 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52895,localport=5401] is running
+2022.06.29 14:46:31.409 INFO  Server.Server - Maze Solved 
+2022.06.29 14:46:38.581 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52897,localport=5400] Arrived
+2022.06.29 14:46:38.583 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52897,localport=5400] is running
+2022.06.29 14:46:38.586 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:46:52.023 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52898,localport=5401] Arrived
+2022.06.29 14:46:52.026 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52898,localport=5401] is running
+2022.06.29 14:46:52.451 INFO  Server.Server - Maze Solved 
+2022.06.29 14:46:57.109 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52899,localport=5400] Arrived
+2022.06.29 14:46:57.110 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52899,localport=5400] is running
+2022.06.29 14:46:57.113 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:47:04.813 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52901,localport=5401] Arrived
+2022.06.29 14:47:04.816 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52901,localport=5401] is running
+2022.06.29 14:47:05.172 INFO  Server.Server - Maze Solved 
+2022.06.29 14:47:18.669 INFO  Server.Server - Server Stopped
+2022.06.29 14:47:18.671 INFO  Server.Server - Server Stopped
+2022.06.29 14:55:56.345 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 14:55:56.345 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 14:56:01.050 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52920,localport=5400] Arrived
+2022.06.29 14:56:01.051 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52920,localport=5400] is running
+2022.06.29 14:56:01.060 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:56:08.868 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52921,localport=5400] Arrived
+2022.06.29 14:56:08.870 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=52921,localport=5400] is running
+2022.06.29 14:56:08.885 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 14:56:13.756 INFO  Server.Server - Server Stopped
+2022.06.29 14:56:13.757 INFO  Server.Server - Server Stopped
+2022.06.29 15:09:14.285 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:09:14.285 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:09:16.804 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53008,localport=5400] Arrived
+2022.06.29 15:09:16.807 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53008,localport=5400] is running
+2022.06.29 15:09:16.823 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:09:25.598 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53009,localport=5400] Arrived
+2022.06.29 15:09:25.599 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53009,localport=5400] is running
+2022.06.29 15:09:25.601 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:09:45.659 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53010,localport=5401] Arrived
+2022.06.29 15:09:45.661 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53010,localport=5401] is running
+2022.06.29 15:09:46.182 INFO  Server.Server - Maze Solved 
+2022.06.29 15:09:59.606 INFO  Server.Server - Server Stopped
+2022.06.29 15:09:59.607 INFO  Server.Server - Server Stopped
+2022.06.29 15:12:01.506 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:12:01.506 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:12:03.011 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53016,localport=5400] Arrived
+2022.06.29 15:12:03.014 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53016,localport=5400] is running
+2022.06.29 15:12:03.031 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:12:21.803 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53017,localport=5401] Arrived
+2022.06.29 15:12:21.805 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53017,localport=5401] is running
+2022.06.29 15:12:22.326 INFO  Server.Server - Maze Solved 
+2022.06.29 15:12:32.172 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53018,localport=5400] Arrived
+2022.06.29 15:12:32.173 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53018,localport=5400] is running
+2022.06.29 15:12:32.179 INFO  Server.Server - Maze with 20 rows ,40 cols generated 
+2022.06.29 15:13:16.770 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53019,localport=5401] Arrived
+2022.06.29 15:13:16.773 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53019,localport=5401] is running
+2022.06.29 15:13:17.174 INFO  Server.Server - Maze Solved 
+2022.06.29 15:13:24.825 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53020,localport=5400] Arrived
+2022.06.29 15:13:24.826 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53020,localport=5400] is running
+2022.06.29 15:13:24.830 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:14:02.788 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53021,localport=5401] Arrived
+2022.06.29 15:14:02.789 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53021,localport=5401] is running
+2022.06.29 15:14:02.855 INFO  Server.Server - Maze Solved 
+2022.06.29 15:14:21.328 INFO  Server.Server - Server Stopped
+2022.06.29 15:14:21.331 INFO  Server.Server - Server Stopped
+2022.06.29 15:21:01.206 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:21:01.206 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:21:03.970 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53044,localport=5400] Arrived
+2022.06.29 15:21:03.973 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53044,localport=5400] is running
+2022.06.29 15:21:03.990 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:21:05.967 INFO  Server.Server - Server Stopped
+2022.06.29 15:21:05.968 INFO  Server.Server - Server Stopped
+2022.06.29 15:29:00.786 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:29:00.786 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:29:02.377 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53057,localport=5400] Arrived
+2022.06.29 15:29:02.380 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53057,localport=5400] is running
+2022.06.29 15:29:02.397 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:29:25.570 INFO  Server.Server - Server Stopped
+2022.06.29 15:29:25.571 INFO  Server.Server - Server Stopped
+2022.06.29 15:37:36.237 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:37:36.237 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:37:37.518 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53066,localport=5400] Arrived
+2022.06.29 15:37:37.519 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53066,localport=5400] is running
+2022.06.29 15:37:37.529 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:37:46.063 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53067,localport=5401] Arrived
+2022.06.29 15:37:46.065 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53067,localport=5401] is running
+2022.06.29 15:37:46.172 INFO  Server.Server - Maze Solved 
+2022.06.29 15:37:47.670 INFO  Server.Server - Server Stopped
+2022.06.29 15:37:47.671 INFO  Server.Server - Server Stopped
+2022.06.29 15:40:15.678 INFO  Server.Server - Server Start In Port 5401
+2022.06.29 15:40:15.678 INFO  Server.Server - Server Start In Port 5400
+2022.06.29 15:40:16.866 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53082,localport=5400] Arrived
+2022.06.29 15:40:16.867 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53082,localport=5400] is running
+2022.06.29 15:40:16.876 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:40:26.836 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53083,localport=5401] Arrived
+2022.06.29 15:40:26.838 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53083,localport=5401] is running
+2022.06.29 15:40:26.945 INFO  Server.Server - Maze Solved 
+2022.06.29 15:40:28.999 INFO  Server.Server - Server Stopped
+2022.06.29 15:40:29.000 INFO  Server.Server - Server Stopped
+2022.06.29 15:51:14.344 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 15:51:14.344 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 15:51:16.719 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53113,localport=5500] Arrived
+2022.06.29 15:51:16.721 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53113,localport=5500] is running
+2022.06.29 15:51:16.738 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 15:51:18.119 INFO  Server.Server - Server Stopped
+2022.06.29 15:51:18.119 INFO  Server.Server - Server Stopped
+2022.06.29 16:12:39.185 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:12:39.185 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:12:45.104 INFO  Server.Server - Server Stopped
+2022.06.29 16:12:45.105 INFO  Server.Server - Server Stopped
+2022.06.29 16:20:58.401 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:20:58.401 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:21:03.236 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53552,localport=5500] Arrived
+2022.06.29 16:21:03.239 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53552,localport=5500] is running
+2022.06.29 16:21:03.254 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:21:07.549 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53553,localport=5500] Arrived
+2022.06.29 16:21:07.551 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53553,localport=5500] is running
+2022.06.29 16:21:07.555 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:21:15.647 INFO  Server.Server - Server Stopped
+2022.06.29 16:21:15.648 INFO  Server.Server - Server Stopped
+2022.06.29 16:25:45.579 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:25:45.579 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:25:53.675 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53588,localport=5500] Arrived
+2022.06.29 16:25:53.677 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53588,localport=5500] is running
+2022.06.29 16:25:53.694 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:26:00.770 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53589,localport=5500] Arrived
+2022.06.29 16:26:00.772 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53589,localport=5500] is running
+2022.06.29 16:26:00.775 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:26:08.316 INFO  Server.Server - Server Stopped
+2022.06.29 16:26:08.317 INFO  Server.Server - Server Stopped
+2022.06.29 16:37:15.583 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:37:15.583 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:38:10.189 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:38:10.189 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:38:14.053 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53778,localport=5500] Arrived
+2022.06.29 16:38:14.055 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53778,localport=5500] is running
+2022.06.29 16:38:14.071 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:38:17.264 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53780,localport=5500] Arrived
+2022.06.29 16:38:17.264 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53780,localport=5500] is running
+2022.06.29 16:38:17.266 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:38:21.714 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53783,localport=5500] Arrived
+2022.06.29 16:38:21.716 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53783,localport=5500] is running
+2022.06.29 16:38:21.721 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:38:22.533 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53784,localport=5501] Arrived
+2022.06.29 16:38:22.535 INFO  Server.Server - Client:Socket[addr=/127.0.0.1,port=53784,localport=5501] is running
+2022.06.29 16:38:23.033 INFO  Server.Server - Maze Solved 
+2022.06.29 16:38:25.531 INFO  Server.Server - Server Stopped
+2022.06.29 16:38:25.532 INFO  Server.Server - Server Stopped
+2022.06.29 16:42:55.602 ERROR Server.Server - IOException:Address already in use
+2022.06.29 16:42:55.602 ERROR Server.Server - IOException:Address already in use
+2022.06.29 16:50:33.508 ERROR Server.Server - IOException:Address already in use
+2022.06.29 16:50:33.508 ERROR Server.Server - IOException:Address already in use
+2022.06.29 16:50:53.971 INFO  Server.Server - Server Stopped
+2022.06.29 16:50:53.971 INFO  Server.Server - Server Stopped
+2022.06.29 16:51:43.630 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:51:43.630 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:51:53.692 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53874,localport=5500] Arrived
+2022.06.29 16:51:53.710 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53874,localport=5500] is running
+2022.06.29 16:51:53.722 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:51:54.643 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53875,localport=5501] Arrived
+2022.06.29 16:51:54.645 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53875,localport=5501] is running
+2022.06.29 16:51:55.201 INFO  Server.Server - Maze Solved 
+2022.06.29 16:51:57.291 INFO  Server.Server - Server Stopped
+2022.06.29 16:51:57.293 INFO  Server.Server - Server Stopped
+2022.06.29 16:53:05.777 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 16:53:05.777 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 16:53:10.594 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53881,localport=5500] Arrived
+2022.06.29 16:53:10.598 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53881,localport=5500] is running
+2022.06.29 16:53:10.617 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 16:53:12.769 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53882,localport=5501] Arrived
+2022.06.29 16:53:12.770 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=53882,localport=5501] is running
+2022.06.29 16:53:12.881 INFO  Server.Server - Maze Solved 
+2022.06.29 16:53:14.722 INFO  Server.Server - Server Stopped
+2022.06.29 16:53:14.723 INFO  Server.Server - Server Stopped
+2022.06.29 19:15:39.816 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:15:39.816 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:15:49.830 INFO  Server.Server - Server Stopped
+2022.06.29 19:15:49.832 INFO  Server.Server - Server Stopped
+2022.06.29 19:21:01.016 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:21:01.016 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:21:03.072 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54129,localport=5500] Arrived
+2022.06.29 19:21:03.073 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54129,localport=5500] is running
+2022.06.29 19:21:03.083 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:21:06.239 INFO  Server.Server - Server Stopped
+2022.06.29 19:21:06.241 INFO  Server.Server - Server Stopped
+2022.06.29 19:23:53.243 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:23:53.243 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:23:58.669 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54151,localport=5500] Arrived
+2022.06.29 19:23:58.670 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54151,localport=5500] is running
+2022.06.29 19:23:58.681 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:23:59.640 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54152,localport=5501] Arrived
+2022.06.29 19:23:59.640 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54152,localport=5501] is running
+2022.06.29 19:24:00.153 INFO  Server.Server - Maze Solved 
+2022.06.29 19:24:03.284 INFO  Server.Server - Server Stopped
+2022.06.29 19:24:03.284 INFO  Server.Server - Server Stopped
+2022.06.29 19:25:22.119 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:25:22.119 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:25:30.066 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54161,localport=5500] Arrived
+2022.06.29 19:25:30.067 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54161,localport=5500] is running
+2022.06.29 19:25:30.078 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:25:31.703 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54162,localport=5501] Arrived
+2022.06.29 19:25:31.705 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54162,localport=5501] is running
+2022.06.29 19:25:31.831 INFO  Server.Server - Maze Solved 
+2022.06.29 19:25:34.630 INFO  Server.Server - Server Stopped
+2022.06.29 19:25:34.631 INFO  Server.Server - Server Stopped
+2022.06.29 19:26:28.359 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:26:28.359 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:26:33.350 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54166,localport=5500] Arrived
+2022.06.29 19:26:33.353 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54166,localport=5500] is running
+2022.06.29 19:26:33.368 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:26:35.060 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54167,localport=5501] Arrived
+2022.06.29 19:26:35.061 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54167,localport=5501] is running
+2022.06.29 19:26:35.170 INFO  Server.Server - Maze Solved 
+2022.06.29 19:26:42.064 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54168,localport=5500] Arrived
+2022.06.29 19:26:42.065 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54168,localport=5500] is running
+2022.06.29 19:26:42.067 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:26:42.780 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54169,localport=5501] Arrived
+2022.06.29 19:26:42.781 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54169,localport=5501] is running
+2022.06.29 19:26:42.854 INFO  Server.Server - Maze Solved 
+2022.06.29 19:26:47.448 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54170,localport=5500] Arrived
+2022.06.29 19:26:47.448 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54170,localport=5500] is running
+2022.06.29 19:26:47.451 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:26:53.950 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54171,localport=5501] Arrived
+2022.06.29 19:26:53.951 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54171,localport=5501] is running
+2022.06.29 19:26:54.161 INFO  Server.Server - Maze Solved 
+2022.06.29 19:27:05.561 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54172,localport=5500] Arrived
+2022.06.29 19:27:05.562 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54172,localport=5500] is running
+2022.06.29 19:27:05.566 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:27:06.678 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54173,localport=5501] Arrived
+2022.06.29 19:27:06.679 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54173,localport=5501] is running
+2022.06.29 19:27:07.033 INFO  Server.Server - Maze Solved 
+2022.06.29 19:27:20.022 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54174,localport=5501] Arrived
+2022.06.29 19:27:20.023 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54174,localport=5501] is running
+2022.06.29 19:27:20.073 INFO  Server.Server - Maze Solved 
+2022.06.29 19:27:22.688 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54175,localport=5500] Arrived
+2022.06.29 19:27:22.690 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54175,localport=5500] is running
+2022.06.29 19:27:22.708 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:27:39.255 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54176,localport=5501] Arrived
+2022.06.29 19:27:39.257 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54176,localport=5501] is running
+2022.06.29 19:27:39.415 INFO  Server.Server - Maze Solved 
+2022.06.29 19:27:42.486 INFO  Server.Server - Server Stopped
+2022.06.29 19:27:42.487 INFO  Server.Server - Server Stopped
+2022.06.29 19:32:14.383 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:32:14.383 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:32:20.275 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54186,localport=5500] Arrived
+2022.06.29 19:32:20.278 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54186,localport=5500] is running
+2022.06.29 19:32:20.295 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:32:26.289 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54187,localport=5500] Arrived
+2022.06.29 19:32:26.291 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54187,localport=5500] is running
+2022.06.29 19:32:26.295 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:32:32.671 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54188,localport=5500] Arrived
+2022.06.29 19:32:32.672 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54188,localport=5500] is running
+2022.06.29 19:32:32.674 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:32:33.624 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54189,localport=5501] Arrived
+2022.06.29 19:32:33.624 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54189,localport=5501] is running
+2022.06.29 19:32:33.725 INFO  Server.Server - Maze Solved 
+2022.06.29 19:32:37.672 INFO  Server.Server - Server Stopped
+2022.06.29 19:32:37.672 INFO  Server.Server - Server Stopped
+2022.06.29 19:37:20.342 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:37:20.342 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:37:27.163 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54204,localport=5500] Arrived
+2022.06.29 19:37:27.166 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54204,localport=5500] is running
+2022.06.29 19:37:27.176 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:37:28.851 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54205,localport=5501] Arrived
+2022.06.29 19:37:28.851 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54205,localport=5501] is running
+2022.06.29 19:37:29.366 INFO  Server.Server - Maze Solved 
+2022.06.29 19:37:31.459 INFO  Server.Server - Server Stopped
+2022.06.29 19:37:31.460 INFO  Server.Server - Server Stopped
+2022.06.29 19:40:44.799 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:40:44.799 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:40:50.984 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54215,localport=5500] Arrived
+2022.06.29 19:40:50.985 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54215,localport=5500] is running
+2022.06.29 19:40:50.999 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:40:52.581 INFO  Server.Server - Server Stopped
+2022.06.29 19:40:52.583 INFO  Server.Server - Server Stopped
+2022.06.29 19:42:28.802 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:42:28.802 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:42:33.958 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54221,localport=5500] Arrived
+2022.06.29 19:42:33.959 INFO  Server.Server - Client:Socket[addr=/192.168.1.106,port=54221,localport=5500] is running
+2022.06.29 19:42:33.968 INFO  Server.Server - Maze with 20 rows ,20 cols generated 
+2022.06.29 19:42:36.274 INFO  Server.Server - Server Stopped
+2022.06.29 19:42:36.274 INFO  Server.Server - Server Stopped
+2022.06.29 19:44:45.985 INFO  Server.Server - Server Start In Port 5500
+2022.06.29 19:44:45.985 INFO  Server.Server - Server Start In Port 5501
+2022.06.29 19:44:54.042 INFO  Server.Server - Server Stopped
+2022.06.29 19:44:54.043 INFO  Server.Server - Server Stopped

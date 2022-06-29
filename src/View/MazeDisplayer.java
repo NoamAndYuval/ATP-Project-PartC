@@ -18,6 +18,8 @@ import javafx.scene.paint.Color;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.net.URISyntaxException;
+import java.net.URL;
 
 public class MazeDisplayer extends Canvas {
     // wall and player images:
@@ -75,7 +77,7 @@ public class MazeDisplayer extends Canvas {
 
     public void initPoints(int row, int col) {
         points = new boolean[row][col];
-        this.Score = 0 ;
+        this.Score = 0;
 
     }
 
@@ -84,35 +86,43 @@ public class MazeDisplayer extends Canvas {
     }
 
     public void setImageFileNamePlayer(KeyEvent keyEvent) {
-        switch (keyEvent.getCode()) {
-            case UP:
-            case NUMPAD8:
-                if (PlayerU == null)
-                    PlayerU = new Image(new File("resources/images/pacmanUp.png").toURI().toString());
-                playerImage = PlayerU;
-                break;
-            case DOWN:
-            case NUMPAD2:
-                if (PlayerD == null)
-                    PlayerD = new Image(new File("resources/images/pacmanDown.png").toURI().toString());
-                playerImage = PlayerD;
-                break;
-            case LEFT:
-            case NUMPAD4:
-            case NUMPAD1:
-            case NUMPAD7:
-                if (PlayerL == null)
-                    PlayerL = new Image(new File("resources/images/pacmanLeft.png").toURI().toString());
-                playerImage = PlayerL;
-                break;
-            case RIGHT:
-            case NUMPAD6:
-            case NUMPAD3:
-            case NUMPAD9:
-                if (PlayerR == null)
-                    PlayerR = new Image(new File("resources/images/pacmanRight.png").toURI().toString());
-                playerImage = PlayerR;
-                break;
+
+
+        try {
+
+
+            switch (keyEvent.getCode()) {
+                case UP:
+                case NUMPAD8:
+                    if (PlayerU == null)
+                        PlayerU = new Image(String.valueOf(getClass().getResource("/images/pacmanUp.png")));
+                    playerImage = PlayerU;
+                    break;
+                case DOWN:
+                case NUMPAD2:
+                    if (PlayerD == null)
+                        PlayerD = new Image(String.valueOf(getClass().getResource("/images/pacmanDown.png")));
+                    playerImage = PlayerD;
+                    break;
+                case LEFT:
+                case NUMPAD4:
+                case NUMPAD1:
+                case NUMPAD7:
+                    if (PlayerL == null)
+                        PlayerL = new Image(String.valueOf(getClass().getResource("/images/pacmanLeft.png")));
+                    playerImage = PlayerL;
+                    break;
+                case RIGHT:
+                case NUMPAD6:
+                case NUMPAD3:
+                case NUMPAD9:
+                    if (PlayerR == null)
+                        PlayerR = new Image(String.valueOf(getClass().getResource("/images/pacmanRight.png")));
+                    playerImage = PlayerR;
+                    break;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }
@@ -142,7 +152,7 @@ public class MazeDisplayer extends Canvas {
     private void drawPoints(GraphicsContext graphicsContext, double cellHeight, double cellWidth, int rows, int cols) {
         try {
             if (PointsImg == null)
-                PointsImg = new Image(new File("resources/images/Point.png").toURI().toString());
+                PointsImg = new Image(String.valueOf(getClass().getResource("/images/Point.png")));
 
         } catch (Exception e) {
             System.out.println("There is no player image file");
@@ -174,16 +184,16 @@ public class MazeDisplayer extends Canvas {
 
         try {
             if (wallImage == null)
-                wallImage = new Image(new FileInputStream(getImageFileNameWall()));
-        } catch (FileNotFoundException e) {
+                wallImage = new Image(String.valueOf(getClass().getResource("/images/wall.png")));
+        } catch (Exception e) {
             System.out.println("There is no wall image file");
         }
 
         try {
             if (TargetImage == null)
-                TargetImage = new Image(new FileInputStream(getImageFileNameTarget()));
+                TargetImage = new Image(String.valueOf(getClass().getResource("/images/Target.png")));
 
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             System.out.println("There is no Target image file");
         }
 
@@ -211,13 +221,13 @@ public class MazeDisplayer extends Canvas {
         double x = playerCol * cellWidth;
         double y = playerRow * cellHeight;
         graphicsContext.setFill(Color.GREEN);
-        if(!points[playerRow][playerCol]) {
+        if (!points[playerRow][playerCol]) {
             points[playerRow][playerCol] = true;
-            Score ++;
+            Score++;
         }
         try {
             if (playerImage == null)
-                playerImage = new Image(new File("resources/images/pacmanRight.png").toURI().toString());
+                playerImage = new Image(String.valueOf(getClass().getResource("/images/pacmanRight.png")));
 
         } catch (Exception e) {
             System.out.println("There is no player image file");
@@ -233,7 +243,7 @@ public class MazeDisplayer extends Canvas {
 
         try {
             if (solImg == null)
-                solImg = new Image(new FileInputStream(getImageFileNameSol()));
+                solImg = new Image(String.valueOf(getClass().getResource("/images/greanL.png")));
         } catch (Exception e) {
             System.out.println("There is no solution image file");
         }
@@ -263,9 +273,10 @@ public class MazeDisplayer extends Canvas {
     }
 
     public String getScore() {
-        return this.Score+"";
+        return this.Score + "";
     }
-    public void NoPoints(){
+
+    public void NoPoints() {
         for (int i = 0; i < points.length; i++) {
             for (int j = 0; j < points[0].length; j++) {
                 points[i][j] = true;

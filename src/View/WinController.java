@@ -1,37 +1,21 @@
 package View;
 
-import Model.MyModel;
-import ViewModel.MyViewModel;
-import algorithms.mazeGenerators.Maze;
-
-import algorithms.search.Solution;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.scene.paint.Color;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 
 import java.io.File;
-import java.io.IOException;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.text.DecimalFormat;
-import java.util.Observable;
-import java.util.Observer;
 import java.util.ResourceBundle;
 
 public class WinController implements Initializable {
@@ -39,14 +23,21 @@ public class WinController implements Initializable {
     public Button StartBTN;
     public ImageView WinImg;
     public Label ScoreNum;
+    public Label WinLBL;
+    public Label ScoreIsLBL;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        File file = new File("./resources/LivDeDream.mp3");
-        Media media = new Media(file.toURI().toString());
-        mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.play();
+
+        try {
+            mediaPlayer = new MediaPlayer(new Media(WinController.class.getResource("/images/LivDeDream.mp3").toURI().toString()));
+            mediaPlayer.play();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
@@ -72,11 +63,12 @@ public class WinController implements Initializable {
             alert.show();
         }
     }
-    public void setScore(double score){
-        if(score>=1)
-            score=1;
+
+    public void setScore(double score) {
+        if (score >= 1)
+            score = 1;
         DecimalFormat df = new DecimalFormat("0.00");
-        ScoreNum.setText(df.format(score*100)+" %");
+        ScoreNum.setText(df.format(score * 100) + " %");
     }
 
 

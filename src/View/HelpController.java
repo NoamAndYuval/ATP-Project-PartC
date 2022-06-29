@@ -13,6 +13,8 @@ import java.util.ResourceBundle;
 public class HelpController implements Initializable {
     public ImageView myImageView;
     public Label HelpLBL;
+    public Label HelpTXT;
+    public Label HelpTXTEnd;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

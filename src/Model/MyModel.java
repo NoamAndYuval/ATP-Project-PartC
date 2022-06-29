@@ -33,22 +33,26 @@ public class MyModel extends Observable implements IModel {
 
     public void startServers() {
         if (mazeGeneratingServer == null) {
+
             ServerStrategyGenerateMaze serverStrategyGenerateMaze=new ServerStrategyGenerateMaze();
-            mazeGeneratingServer = new Server(5400, 1000, serverStrategyGenerateMaze);
+            mazeGeneratingServer = new Server(5500, 1000, serverStrategyGenerateMaze);
             mazeGeneratingServer.start();
+
 
         }
         if (solveSearchProblemServer == null) {
-            solveSearchProblemServer = new Server(5401, 1000, new
+
+            solveSearchProblemServer = new Server(5501, 1000, new
                     ServerStrategySolveSearchProblem());
             solveSearchProblemServer.start();
+
         }
     }
 
     @Override
     public void generateMaze(int row, int col) {
         try {
-            Client client = new Client(InetAddress.getLocalHost(), 5400, new
+            Client client = new Client(InetAddress.getLocalHost(), 5500, new
                     IClientStrategy() {
                         @Override
                         public void clientStrategy(InputStream inFromServer,
@@ -185,7 +189,7 @@ public class MyModel extends Observable implements IModel {
         if (maze == null)
             return;
         try {
-            Client client = new Client(InetAddress.getLocalHost(), 5401, new IClientStrategy() {
+            Client client = new Client(InetAddress.getLocalHost(), 5501, new IClientStrategy() {
                 @Override
                 public void clientStrategy(InputStream inFromServer,
                                            OutputStream outToServer) {
